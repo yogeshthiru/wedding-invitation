@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: invite-frontend
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+volumes:
+  backend-data:

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-maroon-dark text-cream font-body antialiased overflow-x-hidden;
+  cursor: none;
+}
+
+@media (max-width: 768px), (hover: none) {
+  body {
+    cursor: auto;
+  }
+}
+
+::selection {
+  @apply bg-gold/40 text-maroon-dark;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-maroon-dark;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gold/70 rounded-full;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(90deg, #d4af37, #f0c14b, #d4af37);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+.mandala-ring {
+  background-image: radial-gradient(circle, transparent 60%, rgba(212, 175, 55, 0.15) 61%, transparent 63%),
+    radial-gradient(circle, transparent 70%, rgba(212, 175, 55, 0.1) 71%, transparent 73%);
+}
+
+.section-divider {
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+}
+
+.glass-card {
+  background: rgba(35, 33, 82, 0.55);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
