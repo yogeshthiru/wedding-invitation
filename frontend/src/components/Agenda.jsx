@@ -18,7 +18,7 @@ export default function Agenda() {
       {/* Hands.jpg backdrop, blended into the blue-violet night theme */}
       <div className="absolute inset-0">
         <img
-          src="/images/hands.jpg"
+          src={`${import.meta.env.BASE_URL}images/hands.jpg`}
           alt=""
           aria-hidden="true"
           className="absolute inset-0 h-full w-full object-cover object-center opacity-60"

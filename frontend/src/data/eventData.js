@@ -14,7 +14,7 @@ export const eventInfo = {
 }
 
 export const heroImage = {
-  src: '/images/hands2.jpg',
+  src: `${import.meta.env.BASE_URL}images/hands2.jpg`,
   alt: "Shiva and Parvati's hands united beneath the full moon"
 }
 
@@ -87,8 +87,8 @@ export const foodMenu = [
 ]
 
 export const gallery = [
-  { src: '/images/hands2.jpg', alt: 'Hands united beneath the full moon during the sacred Panigrahanam' },
-  { src: '/images/hands.jpg', alt: 'A cosmic union — hands reaching toward each other across the stars' },
-  { src: '/images/threehands.jpg', alt: 'Sacred moments of the divine hand union' }
+  { src: `${import.meta.env.BASE_URL}images/hands2.jpg`, alt: 'Hands united beneath the full moon during the sacred Panigrahanam' },
+  { src: `${import.meta.env.BASE_URL}images/hands.jpg`, alt: 'A cosmic union — hands reaching toward each other across the stars' },
+  { src: `${import.meta.env.BASE_URL}images/threehands.jpg`, alt: 'Sacred moments of the divine hand union' }
 ]
 
