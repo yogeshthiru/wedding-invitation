@@ -22,7 +22,7 @@ export const agenda = [
   {
     day: 'Morning',
     title: 'Groom Nallangu',
-    time: '28 th, 5:00 AM onwards',
+    time: '28 th Friday, 5:00 AM onwards',
     description:
       'joyful pre-wedding ritual filled with blessings, laughter, and family traditions from Groom Side',
     icon: 'lamp'
@@ -30,7 +30,7 @@ export const agenda = [
   {
     day: 'Morning',
     title: 'Bride Nallangu',
-    time: '28 th, 9:00 AM – 11:00 AM',
+    time: '28 th Friday, 10:00 AM onwards',
     description:
       'joyful pre-wedding ritual filled with blessings, laughter, and family traditions from Bride side',
     icon: 'lamp'
@@ -38,15 +38,15 @@ export const agenda = [
   {
     day: 'Evening',
     title: 'Reception',
-    time: '29 th, 7 PM onwards',
+    time: '29 th Saturday, 7 PM onwards',
     description:
       'Join us as we celebrate our upcoming union with an evening of joy, laughter, and cherished moments."',
     icon: 'music'
   },
   {
     day: 'Morning',
-    title: 'Wedding Ceremony',
-    time: '30 th, 9 AM Onboards',
+    title: 'Wedding Celebration',
+    time: '30 th Sunday, 9 AM onwards',
     description:
       'United by love, blessed by family, and bound for a lifetime together.',
     icon: 'award'
