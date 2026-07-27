@@ -7,11 +7,11 @@ export default function Footer() {
     <footer className="relative overflow-hidden bg-maroon-dark py-10 text-center text-cream/70">
       <FloatingPetals count={8} />
       <div className="relative z-10 mx-auto max-w-4xl px-6">
-        <p className="font-script text-2xl text-gold-light">{eventInfo.name}</p>
-        <p className="mt-2 text-sm">{eventInfo.venueAddress}</p>
+        {/* <p className="font-script text-2xl text-gold-light">{eventInfo.name}</p>
+        <p className="mt-2 text-sm">{eventInfo.venueAddress}</p> */}
         <div className="section-divider mx-auto my-6 max-w-xs" />
         <p className="text-xs">
-          © {new Date().getFullYear()} {eventInfo.name}. Crafted with tradition &amp; technology.
+          © {new Date().getFullYear()}. With Love, crafted by Yogesh &amp; Meenu.
         </p>
       </div>
     </footer>

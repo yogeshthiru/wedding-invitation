@@ -1,4 +1,4 @@
-# Shiva-Parvati Kalyanotsavam — Sacred Union Invitation
+# Wedding invitation
 
 An immersive, animated invitation website celebrating the divine union of Shiva & Parvati — parallax hero with a symbolic hand-union illustration, custom cursor, floating marigold petals, countdown timer, ceremony timeline, a sacred-feast carousel, a photo gallery and an embedded venue map.
 

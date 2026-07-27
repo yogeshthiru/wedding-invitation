@@ -8,7 +8,7 @@ export const eventInfo = {
   endDate: '2026-08-30T21:00:00',
   displayDate: '30 August 2026',
   displayTime: '9:00 AM onwards',
-  venueName: 'R Saamikannu Thirumana Mahal, Puducherry',
+  venueName: 'Samikannu thanambal thirumana mahal, Puducherry',
   venueAddress: 'Ariyankuppam',
   mapsQuery: 'Puducherry india'
 }
@@ -21,34 +21,34 @@ export const heroImage = {
 export const agenda = [
   {
     day: 'Morning',
-    title: 'Ganesh Vandana & Deepan',
-    time: '9:00 AM – 11:00 AM',
+    title: 'Groom Nallangu',
+    time: '28 th, 5:00 AM onwards',
     description:
-      'Invocation to Lord Ganesha followed by the ceremonial lighting of the lamp to bless the celebration.',
+      'joyful pre-wedding ritual filled with blessings, laughter, and family traditions from Groom Side',
     icon: 'lamp'
   },
   {
-    day: 'Late Morning',
-    title: 'Panigrahanam — The Sacred Hand Union',
-    time: '11:30 AM – 1:00 PM',
+    day: 'Morning',
+    title: 'Bride Nallangu',
+    time: '28 th, 9:00 AM – 11:00 AM',
     description:
-      'The holiest moment — hands joined and bound with the sacred mauli thread, symbolising the eternal union of Shiva and Parvati.',
-    icon: 'hands'
-  },
-  {
-    day: 'Afternoon',
-    title: 'Mahaprasad & Sanskriti Sandhya',
-    time: '2:00 PM – 6:00 PM',
-    description:
-      'A traditional feast followed by an evening of classical dance and devotional music celebrating the divine couple.',
-    icon: 'music'
+      'joyful pre-wedding ritual filled with blessings, laughter, and family traditions from Bride side',
+    icon: 'lamp'
   },
   {
     day: 'Evening',
-    title: 'Aarti & Ashirwad',
-    time: '6:30 PM – 8:30 PM',
+    title: 'Reception',
+    time: '29 th, 7 PM onwards',
     description:
-      'Closing aarti with a thousand diyas, followed by blessings from elders and priests for all who gather.',
+      'Join us as we celebrate our upcoming union with an evening of joy, laughter, and cherished moments."',
+    icon: 'music'
+  },
+  {
+    day: 'Morning',
+    title: 'Wedding Ceremony',
+    time: '30 th, 9 AM Onboards',
+    description:
+      'United by love, blessed by family, and bound for a lifetime together.',
     icon: 'award'
   }
 ]

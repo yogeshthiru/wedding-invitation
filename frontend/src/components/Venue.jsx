@@ -45,7 +45,7 @@ export default function Venue() {
           </ul>
 
           <a
-            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(eventInfo.mapsQuery)}`}
+            href={`https://maps.app.goo.gl/6trmQ8QzPAc4Ezpr5`}
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer mt-8 inline-block rounded-full bg-maroon px-6 py-3 text-sm font-semibold text-cream shadow-md transition-transform hover:scale-105 hover:bg-maroon-light"
